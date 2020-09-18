@@ -1,0 +1,450 @@
+body {
+  margin: 0; }
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 74px; }
+  .introduce .name {
+    font-size: 55px;
+    line-height: 60px;
+    text-align: center;
+    color: #f5f5f7; }
+  .introduce .performance {
+    margin: 7px 0 6px;
+    font-size: 22px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.112px;
+    color: #f5f5f7; }
+  .introduce .price {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #86868b; }
+  .introduce .learn-buy {
+    display: flex;
+    align-items: center;
+    height: 29px;
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.231px;
+    color: #2997ff; }
+    .introduce .learn-buy .point {
+      height: 100%;
+      width: 8px;
+      margin-left: 10px;
+      background: url(./images/point.png) no-repeat center;
+      background-size: 100% auto; }
+    .introduce .learn-buy .learn {
+      margin-right: 30px; }
+    .introduce .learn-buy .learn,
+.introduce .learn-buy .buy {
+      display: flex;
+      height: 100%; }
+
+.item1 {
+  height: 736px;
+  background: url(./images/bg-one.png) no-repeat center;
+  background-size: 100% 736px; }
+  .item1 .nav {
+    height: 44px;
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .item1 .nav li {
+      font-size: 13px;
+      line-height: 44px;
+      color: #f5f5f7; }
+      .item1 .nav li:first-child {
+        width: 20px;
+        height: 100%;
+        background: url(./images/apple.png) no-repeat center;
+        background-size: 100% auto; }
+      .item1 .nav li:last-child {
+        width: 16px;
+        height: 100%;
+        background: url(./images/store.png) no-repeat center;
+        background-size: 100% auto; }
+      .item1 .nav li:nth-last-child(2) {
+        width: 16px;
+        height: 100%;
+        background: url(./images/search.png) no-repeat center;
+        background-size: 100% auto; }
+
+.item2 {
+  height: 736px;
+  background: url(./images/bg-two.png) no-repeat center;
+  background-size: 100% 736px; }
+  .item2 .introduce {
+    padding-top: 60px; }
+    .item2 .introduce .name {
+      color: #1d1d1f; }
+    .item2 .introduce .performance {
+      color: #1d1d1f; }
+    .item2 .introduce .price {
+      color: #86868b; }
+    .item2 .introduce .learn-buy {
+      color: #0066cc; }
+
+.item3 {
+  height: 736px;
+  background: url(./images/bg-three.png) no-repeat center;
+  background-size: 100% 736px; }
+  .item3 .introduce {
+    padding-top: 105px; }
+    .item3 .introduce .name-level {
+      position: relative;
+      padding-left: 66px;
+      text-align: center; }
+      .item3 .introduce .name-level .apple {
+        position: absolute;
+        left: -0;
+        top: -15px;
+        width: 40px;
+        height: 45px;
+        background: url(./images/big-apple.png) no-repeat center;
+        background-size: 100% 100%; }
+      .item3 .introduce .name-level .name {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 0.112px;
+        color: #000000; }
+      .item3 .introduce .name-level .level {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 31px;
+        text-align: center;
+        letter-spacing: 0.112px;
+        color: #d11f2a; }
+    .item3 .introduce .ads {
+      margin: 21px auto 13px;
+      font-size: 23px;
+      line-height: 31px;
+      text-align: center;
+      letter-spacing: 0.112px;
+      color: #1d1d1f; }
+    .item3 .introduce .learn-buy {
+      margin-top: 0; }
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 33px;
+  margin-bottom: 29px; }
+  .card-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 675px;
+    height: 586px;
+    margin-right: 30px;
+    margin-bottom: 36px; }
+    .card-list li:nth-child(2n) {
+      margin-right: 0; }
+    .card-list li:last-child {
+      margin-bottom: 0; }
+    .card-list li::nth-last-child(2) {
+      margin-bottom: 0; }
+  .card-list .item1 {
+    background: url(./images/card1.png) no-repeat center;
+    background-size: 100% auto; }
+    .card-list .item1 .title {
+      padding-top: 45px;
+      margin-bottom: 11px;
+      font-size: 33px;
+      line-height: 44px;
+      text-align: center;
+      color: #f5f5f7; }
+    .card-list .item1 .link {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #ffffff; }
+      .card-list .item1 .link .play {
+        width: 14px;
+        height: 14px;
+        margin-left: 5px;
+        background: url(./images/play.png) no-repeat center;
+        background-size: contain; }
+  .card-list .item2 {
+    background: url(./images/card2.png) no-repeat center;
+    background-size: 100% auto; }
+    .card-list .item2 .title {
+      padding-top: 46px;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 44px;
+      text-align: center;
+      color: #f5f5f7; }
+    .card-list .item2 .sub-title {
+      margin-bottom: 3px;
+      font-weight: normal;
+      font-size: 19px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.336px;
+      color: #f5f5f7; }
+    .card-list .item2 .link {
+      display: flex;
+      align-items: center;
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #ffffff; }
+      .card-list .item2 .link .white-point {
+        width: 8px;
+        height: 14px;
+        margin-left: 9px;
+        background: url(./images/white-point.png) no-repeat center;
+        background-size: contain; }
+  .card-list .item3 {
+    background: url(./images/card3.png) no-repeat center;
+    background-size: 100% auto; }
+    .card-list .item3 .title {
+      padding-top: 50px;
+      font-size: 37px;
+      line-height: 44px;
+      text-align: center;
+      color: #1d1d1f; }
+    .card-list .item3 .sub-title {
+      margin: 3px auto 12px;
+      font-size: 17px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.336px;
+      color: #1d1d1f; }
+    .card-list .item3 .link {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      line-height: 21px;
+      text-align: center;
+      color: #0066cc; }
+      .card-list .item3 .link .blue-point {
+        width: 8px;
+        height: 14px;
+        margin-left: 10px;
+        background: url(./images/blue-point.png) no-repeat center;
+        background-size: contain; }
+  .card-list .item4 {
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .card-list .item4 .top {
+      padding-top: 59px; }
+      .card-list .item4 .top .title {
+        font-size: 38px;
+        line-height: 44px;
+        text-align: center;
+        color: #1d1d1f; }
+      .card-list .item4 .top .sub-title {
+        font-size: 18px;
+        line-height: 26px;
+        margin: 3px auto 12px;
+        text-align: center;
+        letter-spacing: 0.336px;
+        color: #1d1d1f; }
+      .card-list .item4 .top .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #0066cc; }
+        .card-list .item4 .top .link .blue-point {
+          width: 8px;
+          height: 14px;
+          margin-left: 10px;
+          background: url(./images/blue-point.png) no-repeat center;
+          background-size: contain; }
+    .card-list .item4 .bottom {
+      height: 354px;
+      width: 100%;
+      background: url(./images/card4.png) no-repeat center;
+      background-size: 100% 354px; }
+  .card-list .item5 {
+    background: url(./images/card5.png) no-repeat center;
+    background-size: 100% auto; }
+    .card-list .item5 .star {
+      padding-top: 10px;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      color: #1d1d1f; }
+    .card-list .item5 .title {
+      font-size: 24px;
+      line-height: 44px;
+      text-align: center;
+      color: #1d1d1f; }
+    .card-list .item5 .sub-title {
+      margin: 3px auto 12px;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.336px;
+      color: #1d1d1f; }
+    .card-list .item5 .link {
+      display: flex; }
+      .card-list .item5 .link .blue-point {
+        width: 8px;
+        height: 14px;
+        margin-left: 10px;
+        background: url(./images/blue-point.png) no-repeat center;
+        background-size: contain; }
+      .card-list .item5 .link .left,
+.card-list .item5 .link .right {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #0066cc; }
+      .card-list .item5 .link .left {
+        margin-right: 26px; }
+  .card-list .item6 {
+    background: url(./images/card6.png) no-repeat center;
+    background-size: 100% auto; }
+    .card-list .item6 .title {
+      padding-top: 34px;
+      position: relative;
+      padding-left: 56px;
+      font-size: 38px;
+      line-height: 44px;
+      text-align: center;
+      color: #f5f5f7; }
+      .card-list .item6 .title::before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 36px;
+        height: 41px;
+        background: url(./images/white-apple.png) no-repeat center;
+        background-size: contain; }
+    .card-list .item6 .sub-title {
+      margin: 22px auto 12px;
+      font-size: 18px;
+      line-height: 26px;
+      text-align: center;
+      letter-spacing: 0.336px;
+      color: #f5f5f7; }
+    .card-list .item6 .link {
+      display: flex; }
+      .card-list .item6 .link .blue-point {
+        width: 8px;
+        height: 14px;
+        margin-left: 10px;
+        background: url(./images/white-point.png) no-repeat center;
+        background-size: contain; }
+      .card-list .item6 .link .left,
+.card-list .item6 .link .right {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #ffffff; }
+      .card-list .item6 .link .left {
+        margin-right: 26px; }
+
+.footer {
+  background: #f5f5f7;
+  padding: 46px 0 20px; }
+  .footer .banner {
+    width: 980px;
+    margin: 0 auto; }
+    .footer .banner .description {
+      padding-bottom: 22px;
+      border-bottom: 1px solid #d2d2d7; }
+      .footer .banner .description li {
+        margin-bottom: 8px;
+        font-size: 11px;
+        line-height: 16px;
+        color: #86868b; }
+        .footer .banner .description li:last-child {
+          margin-bottom: 0; }
+    .footer .banner .center {
+      padding: 19px 0 9px;
+      border-bottom: 1px solid #d2d2d7; }
+      .footer .banner .center .list {
+        margin-bottom: 34px;
+        display: flex; }
+        .footer .banner .center .list li {
+          flex: 1;
+          font-size: 12px;
+          line-height: 16px;
+          color: #515154; }
+          .footer .banner .center .list li ul > li {
+            margin-bottom: 10px; }
+            .footer .banner .center .list li ul > li:first-child {
+              color: #1d1d1f; }
+            .footer .banner .center .list li ul > li:last-child {
+              margin-bottom: 0; }
+      .footer .banner .center .more {
+        font-size: 10px;
+        line-height: 16px;
+        color: #86868b; }
+        .footer .banner .center .more .bigger,
+.footer .banner .center .more .smaller {
+          color: #0066cc; }
+    .footer .banner .coppy-right-message {
+      margin: 8px 0 9px;
+      display: flex; }
+      .footer .banner .coppy-right-message .copy-right {
+        margin-right: 50px;
+        font-size: 11px;
+        line-height: 16px;
+        color: #86868b; }
+      .footer .banner .coppy-right-message ul {
+        display: flex; }
+      .footer .banner .coppy-right-message ul > li {
+        font-size: 10px;
+        line-height: 16px;
+        color: #515154;
+        margin-right: 22px;
+        position: relative; }
+        .footer .banner .coppy-right-message ul > li::after {
+          content: '';
+          position: absolute;
+          right: -11px;
+          width: 1px;
+          height: 16px;
+          background: #d2d2d7; }
+        .footer .banner .coppy-right-message ul > li:last-child {
+          margin-right: 0; }
+        .footer .banner .coppy-right-message ul > li:last-child::after {
+          content: '';
+          width: 0;
+          height: 0; }
+    .footer .banner .permission {
+      font-size: 12px;
+      line-height: 16px;
+      color: #666666; }
+      .footer .banner .permission .one {
+        font-size: 12px; }
+      .footer .banner .permission .two {
+        font-size: 10px; }
+      .footer .banner .permission .three {
+        font-size: 11px; }
